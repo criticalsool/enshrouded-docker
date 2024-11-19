@@ -1,0 +1,11 @@
+services:
+  enshrouded:
+    build: .
+    image: enshrouded-server
+    container_name: enshrouded
+    restart: unless-stopped
+    stop_grace_period: 90s
+    ports:
+      - "15637:15637/udp"
+    volumes:
+      - ./server:/home/steam/enshrouded
