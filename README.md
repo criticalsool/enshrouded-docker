@@ -1,2 +1,1 @@
-# enshrouded-docker
-Docker Enshrouded Dedicated Server
+# Docker Enshrouded Dedicated Server

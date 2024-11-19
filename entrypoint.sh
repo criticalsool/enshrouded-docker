@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
 # Quick function to generate a timestamp
 timestamp () {
